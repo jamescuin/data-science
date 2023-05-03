@@ -2,21 +2,27 @@
 This project contains a collection of code used to explore, understand and apply various concepts in the domain of Data Science. This is a personal project of James Cuin, with the purpose of providing hands-on examples and tutorials, that not only demonstrate my own understanding, but also aid learning of others. 
 
 # Setup
-To get started with these notebooks, you need to have Jupyter Notebook or JupyterLab installed on your local machine. If you don't have it installed, you can follow the official documentation of Jupyter to set it up: Jupyter Documentation.
 
-Once you have Jupyter Notebook or JupyterLab set up, you can clone this repository to your local machine using the following command:
+You can clone this repository to your local machine using the following command:
 
     git@github.com:jamescuin/datascience.git
+### Jupyter Notebooks
+To get started with the Notebooks contained in the repository, you need to have Jupyter Notebook or JupyterLab installed on your local machine. If you don't have it installed, you can follow the official documentation of Jupyter to set it up: https://jupyter.org/install.
+
+
+*Note: Aspects of this repository do not require Jupyter Notebook or JupyterLab to be installed.*
 
 ## Dependencies
 
-The notebooks in this repository may require certain dependencies and libraries to be installed in order to run successfully. It is recommended to set up a virtual environment and install the dependencies listed in the requirements.txt file. To set up a virtual environment and install the dependencies, follow these steps:
+The Notebooks in this repository may require certain dependencies and libraries to be installed in order to run successfully. It is recommended to set up a virtual environment and install the dependencies listed in the requirements.txt file. To set up a virtual environment and install the dependencies, follow these steps:
 
     python -m venv myenv
     source myenv/bin/activate
     pip install -r requirements.txt
 
 # Usage
+
+### Jupyter Notebooks
 To use the Jupyter Notebooks, execute the following in your terminal, with the virtual environment still activate:
     
     jupyter notebook
